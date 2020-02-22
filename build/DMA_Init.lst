@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
   18:Code/src/DMA_Init.c **** }
   39              		.loc 1 18 1 view .LVU3
   40 0008 7047     		bx	lr
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 2
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 2
 
 
   41              	.L3:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
   87              		.loc 1 25 3 is_stmt 1 view .LVU14
   88              		.loc 1 25 10 is_stmt 0 view .LVU15
   89 0012 0E4B     		ldr	r3, .L9+4
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 3
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 3
 
 
   90              	.LVL3:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  129              		.file 2 "CMSIS/inc/core_cm4.h"
    1:CMSIS/inc/core_cm4.h **** /**************************************************************************//**
    2:CMSIS/inc/core_cm4.h ****  * @file     core_cm4.h
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 4
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 4
 
 
    3:CMSIS/inc/core_cm4.h ****  * @brief    CMSIS Cortex-M4 Core Peripheral Access Layer Header File
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
   57:CMSIS/inc/core_cm4.h ****  ******************************************************************************/
   58:CMSIS/inc/core_cm4.h **** /**
   59:CMSIS/inc/core_cm4.h ****   \ingroup Cortex_M4
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 5
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 5
 
 
   60:CMSIS/inc/core_cm4.h ****   @{
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  114:CMSIS/inc/core_cm4.h ****     #if defined (__FPU_PRESENT) && (__FPU_PRESENT == 1U)
  115:CMSIS/inc/core_cm4.h ****       #define __FPU_USED       1U
  116:CMSIS/inc/core_cm4.h ****     #else
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 6
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 6
 
 
  117:CMSIS/inc/core_cm4.h ****       #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  171:CMSIS/inc/core_cm4.h **** #ifndef __CMSIS_GENERIC
  172:CMSIS/inc/core_cm4.h **** 
  173:CMSIS/inc/core_cm4.h **** #ifndef __CORE_CM4_H_DEPENDANT
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 7
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 7
 
 
  174:CMSIS/inc/core_cm4.h **** #define __CORE_CM4_H_DEPENDANT
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  228:CMSIS/inc/core_cm4.h **** 
  229:CMSIS/inc/core_cm4.h **** /*@} end of group Cortex_M4 */
  230:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 8
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 8
 
 
  231:CMSIS/inc/core_cm4.h **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  285:CMSIS/inc/core_cm4.h **** #define APSR_V_Pos                         28U                                            /*!< APSR
  286:CMSIS/inc/core_cm4.h **** #define APSR_V_Msk                         (1UL << APSR_V_Pos)                            /*!< APSR
  287:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 9
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 9
 
 
  288:CMSIS/inc/core_cm4.h **** #define APSR_Q_Pos                         27U                                            /*!< APSR
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  342:CMSIS/inc/core_cm4.h **** 
  343:CMSIS/inc/core_cm4.h **** #define xPSR_C_Pos                         29U                                            /*!< xPSR
  344:CMSIS/inc/core_cm4.h **** #define xPSR_C_Msk                         (1UL << xPSR_C_Pos)                            /*!< xPSR
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 10
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 10
 
 
  345:CMSIS/inc/core_cm4.h **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  399:CMSIS/inc/core_cm4.h ****   \brief      Type definitions for the NVIC Registers
  400:CMSIS/inc/core_cm4.h ****   @{
  401:CMSIS/inc/core_cm4.h ****  */
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 11
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 11
 
 
  402:CMSIS/inc/core_cm4.h **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  456:CMSIS/inc/core_cm4.h ****   __IM  uint32_t PFR[2U];                /*!< Offset: 0x040 (R/ )  Processor Feature Register */
  457:CMSIS/inc/core_cm4.h ****   __IM  uint32_t DFR;                    /*!< Offset: 0x048 (R/ )  Debug Feature Register */
  458:CMSIS/inc/core_cm4.h ****   __IM  uint32_t ADR;                    /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register */
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 12
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 12
 
 
  459:CMSIS/inc/core_cm4.h ****   __IM  uint32_t MMFR[4U];               /*!< Offset: 0x050 (R/ )  Memory Model Feature Register */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  513:CMSIS/inc/core_cm4.h **** #define SCB_VTOR_TBLOFF_Pos                 7U                                            /*!< SCB 
  514:CMSIS/inc/core_cm4.h **** #define SCB_VTOR_TBLOFF_Msk                (0x1FFFFFFUL << SCB_VTOR_TBLOFF_Pos)           /*!< SCB 
  515:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 13
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 13
 
 
  516:CMSIS/inc/core_cm4.h **** /* SCB Application Interrupt and Reset Control Register Definitions */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  570:CMSIS/inc/core_cm4.h **** 
  571:CMSIS/inc/core_cm4.h **** #define SCB_SHCSR_BUSFAULTENA_Pos          17U                                            /*!< SCB 
  572:CMSIS/inc/core_cm4.h **** #define SCB_SHCSR_BUSFAULTENA_Msk          (1UL << SCB_SHCSR_BUSFAULTENA_Pos)             /*!< SCB 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 14
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 14
 
 
  573:CMSIS/inc/core_cm4.h **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  627:CMSIS/inc/core_cm4.h **** #define SCB_CFSR_MSTKERR_Pos               (SCB_SHCSR_MEMFAULTACT_Pos + 4U)               /*!< SCB 
  628:CMSIS/inc/core_cm4.h **** #define SCB_CFSR_MSTKERR_Msk               (1UL << SCB_CFSR_MSTKERR_Pos)                  /*!< SCB 
  629:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 15
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 15
 
 
  630:CMSIS/inc/core_cm4.h **** #define SCB_CFSR_MUNSTKERR_Pos             (SCB_SHCSR_MEMFAULTACT_Pos + 3U)               /*!< SCB 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  684:CMSIS/inc/core_cm4.h **** #define SCB_HFSR_FORCED_Pos                30U                                            /*!< SCB 
  685:CMSIS/inc/core_cm4.h **** #define SCB_HFSR_FORCED_Msk                (1UL << SCB_HFSR_FORCED_Pos)                   /*!< SCB 
  686:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 16
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 16
 
 
  687:CMSIS/inc/core_cm4.h **** #define SCB_HFSR_VECTTBL_Pos                1U                                            /*!< SCB 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  741:CMSIS/inc/core_cm4.h **** #define SCnSCB_ACTLR_DISDEFWBUF_Msk        (1UL << SCnSCB_ACTLR_DISDEFWBUF_Pos)        /*!< ACTLR: 
  742:CMSIS/inc/core_cm4.h **** 
  743:CMSIS/inc/core_cm4.h **** #define SCnSCB_ACTLR_DISMCYCINT_Pos         0U                                         /*!< ACTLR: 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 17
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 17
 
 
  744:CMSIS/inc/core_cm4.h **** #define SCnSCB_ACTLR_DISMCYCINT_Msk        (1UL /*<< SCnSCB_ACTLR_DISMCYCINT_Pos*/)    /*!< ACTLR: 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  798:CMSIS/inc/core_cm4.h **** /*@} end of group CMSIS_SysTick */
  799:CMSIS/inc/core_cm4.h **** 
  800:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 18
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 18
 
 
  801:CMSIS/inc/core_cm4.h **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  855:CMSIS/inc/core_cm4.h **** #define ITM_TCR_TraceBusID_Pos             16U                                            /*!< ITM 
  856:CMSIS/inc/core_cm4.h **** #define ITM_TCR_TraceBusID_Msk             (0x7FUL << ITM_TCR_TraceBusID_Pos)             /*!< ITM 
  857:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 19
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 19
 
 
  858:CMSIS/inc/core_cm4.h **** #define ITM_TCR_GTSFREQ_Pos                10U                                            /*!< ITM 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  912:CMSIS/inc/core_cm4.h ****   \brief  Structure type to access the Data Watchpoint and Trace Register (DWT).
  913:CMSIS/inc/core_cm4.h ****  */
  914:CMSIS/inc/core_cm4.h **** typedef struct
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 20
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 20
 
 
  915:CMSIS/inc/core_cm4.h **** {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  969:CMSIS/inc/core_cm4.h **** #define DWT_CTRL_EXCEVTENA_Pos             18U                                         /*!< DWT CTR
  970:CMSIS/inc/core_cm4.h **** #define DWT_CTRL_EXCEVTENA_Msk             (0x1UL << DWT_CTRL_EXCEVTENA_Pos)           /*!< DWT CTR
  971:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 21
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 21
 
 
  972:CMSIS/inc/core_cm4.h **** #define DWT_CTRL_CPIEVTENA_Pos             17U                                         /*!< DWT CTR
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1026:CMSIS/inc/core_cm4.h **** 
 1027:CMSIS/inc/core_cm4.h **** #define DWT_FUNCTION_DATAVADDR0_Pos        12U                                         /*!< DWT FUN
 1028:CMSIS/inc/core_cm4.h **** #define DWT_FUNCTION_DATAVADDR0_Msk        (0xFUL << DWT_FUNCTION_DATAVADDR0_Pos)      /*!< DWT FUN
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 22
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 22
 
 
 1029:CMSIS/inc/core_cm4.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1083:CMSIS/inc/core_cm4.h ****   __IOM uint32_t CLAIMCLR;               /*!< Offset: 0xFA4 (R/W)  Claim tag clear */
 1084:CMSIS/inc/core_cm4.h ****         uint32_t RESERVED7[8U];
 1085:CMSIS/inc/core_cm4.h ****   __IM  uint32_t DEVID;                  /*!< Offset: 0xFC8 (R/ )  TPIU_DEVID */
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 23
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 23
 
 
 1086:CMSIS/inc/core_cm4.h ****   __IM  uint32_t DEVTYPE;                /*!< Offset: 0xFCC (R/ )  TPIU_DEVTYPE */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1140:CMSIS/inc/core_cm4.h **** #define TPI_FIFO0_ETM0_Pos                  0U                                         /*!< TPI FIF
 1141:CMSIS/inc/core_cm4.h **** #define TPI_FIFO0_ETM0_Msk                 (0xFFUL /*<< TPI_FIFO0_ETM0_Pos*/)          /*!< TPI FIF
 1142:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 24
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 24
 
 
 1143:CMSIS/inc/core_cm4.h **** /* TPI ITATBCTR2 Register Definitions */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1197:CMSIS/inc/core_cm4.h **** #define TPI_DEVID_AsynClkIn_Msk            (0x1UL << TPI_DEVID_AsynClkIn_Pos)          /*!< TPI DEV
 1198:CMSIS/inc/core_cm4.h **** 
 1199:CMSIS/inc/core_cm4.h **** #define TPI_DEVID_NrTraceInput_Pos          0U                                         /*!< TPI DEV
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 25
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 25
 
 
 1200:CMSIS/inc/core_cm4.h **** #define TPI_DEVID_NrTraceInput_Msk         (0x1FUL /*<< TPI_DEVID_NrTraceInput_Pos*/)  /*!< TPI DEV
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1254:CMSIS/inc/core_cm4.h **** #define MPU_CTRL_HFNMIENA_Pos               1U                                            /*!< MPU 
 1255:CMSIS/inc/core_cm4.h **** #define MPU_CTRL_HFNMIENA_Msk              (1UL << MPU_CTRL_HFNMIENA_Pos)                 /*!< MPU 
 1256:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 26
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 26
 
 
 1257:CMSIS/inc/core_cm4.h **** #define MPU_CTRL_ENABLE_Pos                 0U                                            /*!< MPU 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1311:CMSIS/inc/core_cm4.h ****   \defgroup CMSIS_FPU     Floating Point Unit (FPU)
 1312:CMSIS/inc/core_cm4.h ****   \brief    Type definitions for the Floating Point Unit (FPU)
 1313:CMSIS/inc/core_cm4.h ****   @{
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 27
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 27
 
 
 1314:CMSIS/inc/core_cm4.h ****  */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1368:CMSIS/inc/core_cm4.h **** #define FPU_FPDSCR_FZ_Pos                  24U                                            /*!< FPDS
 1369:CMSIS/inc/core_cm4.h **** #define FPU_FPDSCR_FZ_Msk                  (1UL << FPU_FPDSCR_FZ_Pos)                     /*!< FPDS
 1370:CMSIS/inc/core_cm4.h **** 
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 28
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 28
 
 
 1371:CMSIS/inc/core_cm4.h **** #define FPU_FPDSCR_RMode_Pos               22U                                            /*!< FPDS
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1425:CMSIS/inc/core_cm4.h **** typedef struct
 1426:CMSIS/inc/core_cm4.h **** {
 1427:CMSIS/inc/core_cm4.h ****   __IOM uint32_t DHCSR;                  /*!< Offset: 0x000 (R/W)  Debug Halting Control and Status
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 29
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 29
 
 
 1428:CMSIS/inc/core_cm4.h ****   __OM  uint32_t DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug Core Register Selector Reg
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1482:CMSIS/inc/core_cm4.h **** #define CoreDebug_DEMCR_MON_REQ_Msk        (1UL << CoreDebug_DEMCR_MON_REQ_Pos)           /*!< Core
 1483:CMSIS/inc/core_cm4.h **** 
 1484:CMSIS/inc/core_cm4.h **** #define CoreDebug_DEMCR_MON_STEP_Pos       18U                                            /*!< Core
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 30
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 30
 
 
 1485:CMSIS/inc/core_cm4.h **** #define CoreDebug_DEMCR_MON_STEP_Msk       (1UL << CoreDebug_DEMCR_MON_STEP_Pos)          /*!< Core
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1539:CMSIS/inc/core_cm4.h ****   \return           Masked and shifted bit field value.
 1540:CMSIS/inc/core_cm4.h **** */
 1541:CMSIS/inc/core_cm4.h **** #define _FLD2VAL(field, value)    (((uint32_t)(value) & field ## _Msk) >> field ## _Pos)
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 31
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 31
 
 
 1542:CMSIS/inc/core_cm4.h **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1596:CMSIS/inc/core_cm4.h **** 
 1597:CMSIS/inc/core_cm4.h **** 
 1598:CMSIS/inc/core_cm4.h **** /* ##########################   NVIC functions  #################################### */
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 32
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 32
 
 
 1599:CMSIS/inc/core_cm4.h **** /**
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
 1653:CMSIS/inc/core_cm4.h ****            In case of a conflict between priority grouping and available
 1654:CMSIS/inc/core_cm4.h ****            priority bits (__NVIC_PRIO_BITS), the smallest possible priority group is set.
 1655:CMSIS/inc/core_cm4.h ****   \param [in]      PriorityGroup  Priority grouping field.
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 33
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 33
 
 
 1656:CMSIS/inc/core_cm4.h ****  */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  146              	.L9:
  147 0048 00000000 		.word	.LANCHOR0
  148 004c 00100240 		.word	1073876992
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 34
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 34
 
 
  149 0050 1C000240 		.word	1073872924
@@ -2026,173 +2026,295 @@ ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 1
  186 0014 00000000 		.word	.LANCHOR1
  187              		.cfi_endproc
  188              	.LFE125:
- 190              		.section	.text.TIM3_IRQHandler,"ax",%progbits
+ 190              		.section	.text.ws2812b_send,"ax",%progbits
  191              		.align	1
- 192              		.global	TIM3_IRQHandler
+ 192              		.global	ws2812b_send
  193              		.syntax unified
  194              		.thumb
  195              		.thumb_func
  196              		.fpu fpv4-sp-d16
- 198              	TIM3_IRQHandler:
+ 198              	ws2812b_send:
  199              	.LFB126:
   49:Code/src/DMA_Init.c **** 
-  50:Code/src/DMA_Init.c **** int tdelay = 0;//1.25мкс
-  51:Code/src/DMA_Init.c **** int ttt = 0;
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 35
+  50:Code/src/DMA_Init.c **** void ws2812b_send(void)
+  51:Code/src/DMA_Init.c **** {
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 35
 
 
-  52:Code/src/DMA_Init.c **** void TIM3_IRQHandler(void)
-  53:Code/src/DMA_Init.c **** {
- 200              		.loc 1 53 1 is_stmt 1 view -0
+ 200              		.loc 1 51 1 is_stmt 1 view -0
  201              		.cfi_startproc
  202              		@ args = 0, pretend = 0, frame = 0
  203              		@ frame_needed = 0, uses_anonymous_args = 0
  204              		@ link register save eliminated.
-  54:Code/src/DMA_Init.c ****   if(TIM3->SR & TIM_SR_UIF) // if UIF flag is set
- 205              		.loc 1 54 3 view .LVU45
- 206              		.loc 1 54 10 is_stmt 0 view .LVU46
- 207 0000 124B     		ldr	r3, .L18
- 208 0002 1B69     		ldr	r3, [r3, #16]
- 209              		.loc 1 54 5 view .LVU47
- 210 0004 13F0010F 		tst	r3, #1
- 211 0008 1FD0     		beq	.L14
-  55:Code/src/DMA_Init.c ****   { 
+  52:Code/src/DMA_Init.c ****   if(flag_rdy) //Если сейчас ни чего не передается
+ 205              		.loc 1 52 3 view .LVU45
+ 206              		.loc 1 52 6 is_stmt 0 view .LVU46
+ 207 0000 114B     		ldr	r3, .L16
+ 208 0002 1B68     		ldr	r3, [r3]
+ 209              		.loc 1 52 5 view .LVU47
+ 210 0004 FBB1     		cbz	r3, .L14
+  53:Code/src/DMA_Init.c ****   {
+  54:Code/src/DMA_Init.c ****     //Устанавливаем флаг занятости интерфейса
+  55:Code/src/DMA_Init.c ****     flag_rdy = 0;
+ 211              		.loc 1 55 5 is_stmt 1 view .LVU48
+ 212              		.loc 1 55 14 is_stmt 0 view .LVU49
+ 213 0006 0021     		movs	r1, #0
+ 214 0008 0F4B     		ldr	r3, .L16
+ 215 000a 1960     		str	r1, [r3]
   56:Code/src/DMA_Init.c ****     
-  57:Code/src/DMA_Init.c **** 
-  58:Code/src/DMA_Init.c ****    
-  59:Code/src/DMA_Init.c ****     if(flag_stop)
- 212              		.loc 1 59 5 is_stmt 1 view .LVU48
- 213              		.loc 1 59 8 is_stmt 0 view .LVU49
- 214 000a 114B     		ldr	r3, .L18+4
- 215 000c 1B68     		ldr	r3, [r3]
- 216              		.loc 1 59 7 view .LVU50
- 217 000e 43B1     		cbz	r3, .L16
-  60:Code/src/DMA_Init.c ****     {
-  61:Code/src/DMA_Init.c ****       TIM3->CR1 &= ~TIM_CR1_CEN; //останавливаем таймер
- 218              		.loc 1 61 7 is_stmt 1 view .LVU51
- 219              		.loc 1 61 17 is_stmt 0 view .LVU52
- 220 0010 0E4B     		ldr	r3, .L18
- 221 0012 1A68     		ldr	r2, [r3]
- 222 0014 22F00102 		bic	r2, r2, #1
- 223 0018 1A60     		str	r2, [r3]
-  62:Code/src/DMA_Init.c ****       TIM3->DIER &= ~TIM_DIER_UIE; //запрещаем прерывание таймера
- 224              		.loc 1 62 7 is_stmt 1 view .LVU53
- 225              		.loc 1 62 18 is_stmt 0 view .LVU54
- 226 001a DA68     		ldr	r2, [r3, #12]
- 227 001c 22F00102 		bic	r2, r2, #1
- 228 0020 DA60     		str	r2, [r3, #12]
- 229              	.L16:
-  63:Code/src/DMA_Init.c ****     }
-  64:Code/src/DMA_Init.c ****     TIM3->SR &= ~TIM_SR_UIF; // clear UIF flag
- 230              		.loc 1 64 5 is_stmt 1 view .LVU55
- 231              		.loc 1 64 14 is_stmt 0 view .LVU56
- 232 0022 0A4B     		ldr	r3, .L18
- 233 0024 1A69     		ldr	r2, [r3, #16]
- 234 0026 22F00102 		bic	r2, r2, #1
- 235 002a 1A61     		str	r2, [r3, #16]
-  65:Code/src/DMA_Init.c ****     TIM3->CNT = 0;
- 236              		.loc 1 65 5 is_stmt 1 view .LVU57
- 237              		.loc 1 65 15 is_stmt 0 view .LVU58
- 238 002c 0022     		movs	r2, #0
- 239 002e 5A62     		str	r2, [r3, #36]
-  66:Code/src/DMA_Init.c ****       if(TIM3->ARR < 3599){
- 240              		.loc 1 66 7 is_stmt 1 view .LVU59
- 241              		.loc 1 66 14 is_stmt 0 view .LVU60
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 36
+  57:Code/src/DMA_Init.c ****     //Настраиваем передачу данных
+  58:Code/src/DMA_Init.c ****     DMA1_Channel2->CCR &= ~DMA_CCR_EN; //Отключаем канал DMA
+ 216              		.loc 1 58 5 is_stmt 1 view .LVU50
+ 217              		.loc 1 58 24 is_stmt 0 view .LVU51
+ 218 000c 0F4B     		ldr	r3, .L16+4
+ 219 000e 1A68     		ldr	r2, [r3]
+ 220 0010 22F00102 		bic	r2, r2, #1
+ 221 0014 1A60     		str	r2, [r3]
+  59:Code/src/DMA_Init.c ****     DMA1_Channel2->CNDTR = sizeof(led_array); //Устанавливаем количество д�
+ 222              		.loc 1 59 5 is_stmt 1 view .LVU52
+ 223              		.loc 1 59 26 is_stmt 0 view .LVU53
+ 224 0016 F022     		movs	r2, #240
+ 225 0018 5A60     		str	r2, [r3, #4]
+  60:Code/src/DMA_Init.c ****     
+  61:Code/src/DMA_Init.c ****     //Таймер считает до WS2812B_TIMER_AAR, таким образом
+  62:Code/src/DMA_Init.c ****     //при данной частоте тактирования таймера
+  63:Code/src/DMA_Init.c ****     //получаем период ШИМ-сигнала, равный 1.25мкс
+  64:Code/src/DMA_Init.c ****     TIM3->ARR = WS2812B_TIMER_AAR;
+ 226              		.loc 1 64 5 is_stmt 1 view .LVU54
+ 227              		.loc 1 64 15 is_stmt 0 view .LVU55
+ 228 001a 0D4A     		ldr	r2, .L16+8
+ 229 001c 5920     		movs	r0, #89
+ 230 001e D062     		str	r0, [r2, #44]
+  65:Code/src/DMA_Init.c ****     TIM3->CCR3 = 0x0000; //Устанавливаем ШИМ-регистр таймера в но�
+ 231              		.loc 1 65 5 is_stmt 1 view .LVU56
+ 232              		.loc 1 65 16 is_stmt 0 view .LVU57
+ 233 0020 D163     		str	r1, [r2, #60]
+  66:Code/src/DMA_Init.c ****     TIM3->CNT = 0; //Очищаем счетный регистр
+ 234              		.loc 1 66 5 is_stmt 1 view .LVU58
+ 235              		.loc 1 66 15 is_stmt 0 view .LVU59
+ 236 0022 5162     		str	r1, [r2, #36]
+  67:Code/src/DMA_Init.c ****     TIM3->CR1 |= TIM_CR1_CEN; //Запускаем таймер
+ 237              		.loc 1 67 5 is_stmt 1 view .LVU60
+ 238              		.loc 1 67 15 is_stmt 0 view .LVU61
+ 239 0024 1168     		ldr	r1, [r2]
+ 240 0026 41F00101 		orr	r1, r1, #1
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 36
 
 
- 242 0030 DA6A     		ldr	r2, [r3, #44]
- 243              		.loc 1 66 9 view .LVU61
- 244 0032 40F60E63 		movw	r3, #3598
- 245 0036 9A42     		cmp	r2, r3
- 246 0038 04D8     		bhi	.L17
-  67:Code/src/DMA_Init.c ****     DMA1_Channel2->CCR |= DMA_CCR_EN;
- 247              		.loc 1 67 5 is_stmt 1 view .LVU62
- 248              		.loc 1 67 24 is_stmt 0 view .LVU63
- 249 003a 064A     		ldr	r2, .L18+8
- 250 003c 1368     		ldr	r3, [r2]
- 251 003e 43F00103 		orr	r3, r3, #1
- 252 0042 1360     		str	r3, [r2]
- 253              	.L17:
-  68:Code/src/DMA_Init.c ****   }
-  69:Code/src/DMA_Init.c ****     TIM3->ARR = 90-1;
- 254              		.loc 1 69 5 is_stmt 1 view .LVU64
- 255              		.loc 1 69 15 is_stmt 0 view .LVU65
- 256 0044 014B     		ldr	r3, .L18
- 257 0046 5922     		movs	r2, #89
- 258 0048 DA62     		str	r2, [r3, #44]
- 259              	.L14:
-  70:Code/src/DMA_Init.c ****   }
-  71:Code/src/DMA_Init.c **** 
-  72:Code/src/DMA_Init.c **** }...
- 260              		.loc 1 72 1 view .LVU66
- 261 004a 7047     		bx	lr
- 262              	.L19:
- 263              		.align	2
- 264              	.L18:
- 265 004c 00040040 		.word	1073742848
- 266 0050 00000000 		.word	.LANCHOR1
- 267 0054 1C000240 		.word	1073872924
+ 241 002a 1160     		str	r1, [r2]
+  68:Code/src/DMA_Init.c ****     //Так как значение ШИМ установили в ноль, 
+  69:Code/src/DMA_Init.c ****     //то на шине будет установлен неактивный уровень
+  70:Code/src/DMA_Init.c ****     //до момента запуска DMA  
+  71:Code/src/DMA_Init.c ****     
+  72:Code/src/DMA_Init.c ****     DMA1->IFCR |= DMA_IFCR_CTEIF2 | DMA_IFCR_CHTIF2 
+ 242              		.loc 1 72 5 is_stmt 1 view .LVU62
+ 243              		.loc 1 72 16 is_stmt 0 view .LVU63
+ 244 002c 0949     		ldr	r1, .L16+12
+ 245 002e 4A68     		ldr	r2, [r1, #4]
+ 246 0030 42F0F002 		orr	r2, r2, #240
+ 247 0034 4A60     		str	r2, [r1, #4]
+  73:Code/src/DMA_Init.c ****       | DMA_IFCR_CTCIF2 | DMA_IFCR_CGIF2; //Очищаем все флаги прерываний D
+  74:Code/src/DMA_Init.c ****     
+  75:Code/src/DMA_Init.c ****     DMA1_Channel2->CCR |= DMA_CCR_TCIE; //прерывание завершения передач�
+ 248              		.loc 1 75 5 is_stmt 1 view .LVU64
+ 249              		.loc 1 75 24 is_stmt 0 view .LVU65
+ 250 0036 1A68     		ldr	r2, [r3]
+ 251 0038 42F00202 		orr	r2, r2, #2
+ 252 003c 1A60     		str	r2, [r3]
+  76:Code/src/DMA_Init.c ****     
+  77:Code/src/DMA_Init.c ****     //Включаем канал DMA, тем самым начинаем передачу данн
+  78:Code/src/DMA_Init.c ****     DMA1_Channel2->CCR |= DMA_CCR_EN; 
+ 253              		.loc 1 78 5 is_stmt 1 view .LVU66
+ 254              		.loc 1 78 24 is_stmt 0 view .LVU67
+ 255 003e 1A68     		ldr	r2, [r3]
+ 256 0040 42F00102 		orr	r2, r2, #1
+ 257 0044 1A60     		str	r2, [r3]
+ 258              	.L14:
+  79:Code/src/DMA_Init.c ****   }
+  80:Code/src/DMA_Init.c **** }
+ 259              		.loc 1 80 1 view .LVU68
+ 260 0046 7047     		bx	lr
+ 261              	.L17:
+ 262              		.align	2
+ 263              	.L16:
+ 264 0048 00000000 		.word	.LANCHOR2
+ 265 004c 1C000240 		.word	1073872924
+ 266 0050 00040040 		.word	1073742848
+ 267 0054 00000240 		.word	1073872896
  268              		.cfi_endproc
  269              	.LFE126:
- 271              		.global	ttt
- 272              		.global	tdelay
- 273              		.global	flag_stop
- 274              		.section	.bss.flag_stop,"aw",%nobits
- 275              		.align	2
- 276              		.set	.LANCHOR1,. + 0
- 279              	flag_stop:
- 280 0000 00000000 		.space	4
- 281              		.section	.bss.led_array,"aw",%nobits
- 282              		.align	2
- 283              		.set	.LANCHOR0,. + 0
- 286              	led_array:
- 287 0000 00000000 		.space	240
- 287      00000000 
- 287      00000000 
- 287      00000000 
- 287      00000000 
- 288              		.section	.bss.tdelay,"aw",%nobits
- 289              		.align	2
- 292              	tdelay:
- 293 0000 00000000 		.space	4
- 294              		.section	.bss.ttt,"aw",%nobits
- 295              		.align	2
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 37
+ 271              		.section	.text.TIM3_IRQHandler,"ax",%progbits
+ 272              		.align	1
+ 273              		.global	TIM3_IRQHandler
+ 274              		.syntax unified
+ 275              		.thumb
+ 276              		.thumb_func
+ 277              		.fpu fpv4-sp-d16
+ 279              	TIM3_IRQHandler:
+ 280              	.LFB127:
+  81:Code/src/DMA_Init.c **** int tdelay = 0;//1.25мкс
+  82:Code/src/DMA_Init.c **** void TIM3_IRQHandler(void)
+  83:Code/src/DMA_Init.c **** {
+ 281              		.loc 1 83 1 is_stmt 1 view -0
+ 282              		.cfi_startproc
+ 283              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 37
 
 
- 298              	ttt:
- 299 0000 00000000 		.space	4
- 300              		.text
- 301              	.Letext0:
- 302              		.file 3 "CMSIS/inc/stm32f334x8.h"
- 303              		.file 4 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\machine\\_default_typ
- 304              		.file 5 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 305              		.file 6 "CMSIS/inc/system_stm32f3xx.h"
-ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s 			page 38
+ 284              		@ frame_needed = 0, uses_anonymous_args = 0
+ 285              		@ link register save eliminated.
+  84:Code/src/DMA_Init.c ****   if(tdelay == 20){tdelay = 0; DMA1_Channel2->CCR |= DMA_CCR_EN;}
+ 286              		.loc 1 84 3 view .LVU70
+ 287              		.loc 1 84 13 is_stmt 0 view .LVU71
+ 288 0000 134B     		ldr	r3, .L23
+ 289 0002 1B68     		ldr	r3, [r3]
+ 290              		.loc 1 84 5 view .LVU72
+ 291 0004 142B     		cmp	r3, #20
+ 292 0006 1AD0     		beq	.L22
+ 293              	.L19:
+  85:Code/src/DMA_Init.c ****   
+  86:Code/src/DMA_Init.c ****   if(TIM3->SR & TIM_SR_UIF) // if UIF flag is set
+ 294              		.loc 1 86 3 is_stmt 1 view .LVU73
+ 295              		.loc 1 86 10 is_stmt 0 view .LVU74
+ 296 0008 124B     		ldr	r3, .L23+4
+ 297 000a 1B69     		ldr	r3, [r3, #16]
+ 298              		.loc 1 86 5 view .LVU75
+ 299 000c 13F0010F 		tst	r3, #1
+ 300 0010 10D0     		beq	.L20
+  87:Code/src/DMA_Init.c ****   { 
+  88:Code/src/DMA_Init.c ****     if(flag_stop)
+ 301              		.loc 1 88 5 is_stmt 1 view .LVU76
+ 302              		.loc 1 88 8 is_stmt 0 view .LVU77
+ 303 0012 114B     		ldr	r3, .L23+8
+ 304 0014 1B68     		ldr	r3, [r3]
+ 305              		.loc 1 88 7 view .LVU78
+ 306 0016 43B1     		cbz	r3, .L21
+  89:Code/src/DMA_Init.c ****     {
+  90:Code/src/DMA_Init.c ****       TIM3->CR1 &= ~TIM_CR1_CEN; //останавливаем таймер
+ 307              		.loc 1 90 7 is_stmt 1 view .LVU79
+ 308              		.loc 1 90 17 is_stmt 0 view .LVU80
+ 309 0018 0E4B     		ldr	r3, .L23+4
+ 310 001a 1A68     		ldr	r2, [r3]
+ 311 001c 22F00102 		bic	r2, r2, #1
+ 312 0020 1A60     		str	r2, [r3]
+  91:Code/src/DMA_Init.c ****       TIM3->DIER &= ~TIM_DIER_UIE; //запрещаем прерывание таймера
+ 313              		.loc 1 91 7 is_stmt 1 view .LVU81
+ 314              		.loc 1 91 18 is_stmt 0 view .LVU82
+ 315 0022 DA68     		ldr	r2, [r3, #12]
+ 316 0024 22F00102 		bic	r2, r2, #1
+ 317 0028 DA60     		str	r2, [r3, #12]
+ 318              	.L21:
+  92:Code/src/DMA_Init.c ****     }
+  93:Code/src/DMA_Init.c ****     TIM3->SR &= ~TIM_SR_UIF; // clear UIF flag
+ 319              		.loc 1 93 5 is_stmt 1 view .LVU83
+ 320              		.loc 1 93 14 is_stmt 0 view .LVU84
+ 321 002a 0A4A     		ldr	r2, .L23+4
+ 322 002c 1369     		ldr	r3, [r2, #16]
+ 323 002e 23F00103 		bic	r3, r3, #1
+ 324 0032 1361     		str	r3, [r2, #16]
+ 325              	.L20:
+  94:Code/src/DMA_Init.c ****     
+  95:Code/src/DMA_Init.c ****   }tdelay++;//52.75us
+ 326              		.loc 1 95 4 is_stmt 1 view .LVU85
+ 327              		.loc 1 95 10 is_stmt 0 view .LVU86
+ 328 0034 064A     		ldr	r2, .L23
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 38
+
+
+ 329 0036 1368     		ldr	r3, [r2]
+ 330 0038 0133     		adds	r3, r3, #1
+ 331 003a 1360     		str	r3, [r2]
+  96:Code/src/DMA_Init.c **** }...
+ 332              		.loc 1 96 1 view .LVU87
+ 333 003c 7047     		bx	lr
+ 334              	.L22:
+  84:Code/src/DMA_Init.c ****   if(tdelay == 20){tdelay = 0; DMA1_Channel2->CCR |= DMA_CCR_EN;}
+ 335              		.loc 1 84 20 is_stmt 1 discriminator 1 view .LVU88
+  84:Code/src/DMA_Init.c ****   if(tdelay == 20){tdelay = 0; DMA1_Channel2->CCR |= DMA_CCR_EN;}
+ 336              		.loc 1 84 27 is_stmt 0 discriminator 1 view .LVU89
+ 337 003e 044B     		ldr	r3, .L23
+ 338 0040 0022     		movs	r2, #0
+ 339 0042 1A60     		str	r2, [r3]
+  84:Code/src/DMA_Init.c ****   if(tdelay == 20){tdelay = 0; DMA1_Channel2->CCR |= DMA_CCR_EN;}
+ 340              		.loc 1 84 32 is_stmt 1 discriminator 1 view .LVU90
+  84:Code/src/DMA_Init.c ****   if(tdelay == 20){tdelay = 0; DMA1_Channel2->CCR |= DMA_CCR_EN;}
+ 341              		.loc 1 84 51 is_stmt 0 discriminator 1 view .LVU91
+ 342 0044 054A     		ldr	r2, .L23+12
+ 343 0046 1368     		ldr	r3, [r2]
+ 344 0048 43F00103 		orr	r3, r3, #1
+ 345 004c 1360     		str	r3, [r2]
+ 346 004e DBE7     		b	.L19
+ 347              	.L24:
+ 348              		.align	2
+ 349              	.L23:
+ 350 0050 00000000 		.word	.LANCHOR3
+ 351 0054 00040040 		.word	1073742848
+ 352 0058 00000000 		.word	.LANCHOR1
+ 353 005c 1C000240 		.word	1073872924
+ 354              		.cfi_endproc
+ 355              	.LFE127:
+ 357              		.global	tdelay
+ 358              		.global	flag_stop
+ 359              		.section	.bss.flag_rdy,"aw",%nobits
+ 360              		.align	2
+ 361              		.set	.LANCHOR2,. + 0
+ 364              	flag_rdy:
+ 365 0000 00000000 		.space	4
+ 366              		.section	.bss.flag_stop,"aw",%nobits
+ 367              		.align	2
+ 368              		.set	.LANCHOR1,. + 0
+ 371              	flag_stop:
+ 372 0000 00000000 		.space	4
+ 373              		.section	.bss.led_array,"aw",%nobits
+ 374              		.align	2
+ 375              		.set	.LANCHOR0,. + 0
+ 378              	led_array:
+ 379 0000 00000000 		.space	240
+ 379      00000000 
+ 379      00000000 
+ 379      00000000 
+ 379      00000000 
+ 380              		.section	.bss.tdelay,"aw",%nobits
+ 381              		.align	2
+ 382              		.set	.LANCHOR3,. + 0
+ 385              	tdelay:
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 39
+
+
+ 386 0000 00000000 		.space	4
+ 387              		.text
+ 388              	.Letext0:
+ 389              		.file 3 "CMSIS/inc/stm32f334x8.h"
+ 390              		.file 4 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\machine\\_default_typ
+ 391              		.file 5 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 392              		.file 6 "CMSIS/inc/system_stm32f3xx.h"
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 DMA_Init.c
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:18     .text.vClear_DMA:0000000000000000 $t
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:26     .text.vClear_DMA:0000000000000000 vClear_DMA
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:44     .text.vClear_DMA:000000000000000c $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:49     .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000000 $t
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:56     .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000000 vDMA1_Channel2_Mem_To_TIM3_Init
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:147    .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000048 $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:156    .text.DMA1_Channel2_IRQHandler:0000000000000000 $t
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:163    .text.DMA1_Channel2_IRQHandler:0000000000000000 DMA1_Channel2_IRQHandler
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:185    .text.DMA1_Channel2_IRQHandler:0000000000000010 $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:191    .text.TIM3_IRQHandler:0000000000000000 $t
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:198    .text.TIM3_IRQHandler:0000000000000000 TIM3_IRQHandler
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:265    .text.TIM3_IRQHandler:000000000000004c $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:298    .bss.ttt:0000000000000000 ttt
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:292    .bss.tdelay:0000000000000000 tdelay
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:279    .bss.flag_stop:0000000000000000 flag_stop
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:275    .bss.flag_stop:0000000000000000 $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:282    .bss.led_array:0000000000000000 $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:286    .bss.led_array:0000000000000000 led_array
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:289    .bss.tdelay:0000000000000000 $d
-C:\Users\SwEeTxD\AppData\Local\Temp\ccZ9m470.s:295    .bss.ttt:0000000000000000 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:18     .text.vClear_DMA:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:26     .text.vClear_DMA:0000000000000000 vClear_DMA
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:44     .text.vClear_DMA:000000000000000c $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:49     .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:56     .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000000 vDMA1_Channel2_Mem_To_TIM3_Init
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:147    .text.vDMA1_Channel2_Mem_To_TIM3_Init:0000000000000048 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:156    .text.DMA1_Channel2_IRQHandler:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:163    .text.DMA1_Channel2_IRQHandler:0000000000000000 DMA1_Channel2_IRQHandler
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:185    .text.DMA1_Channel2_IRQHandler:0000000000000010 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:191    .text.ws2812b_send:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:198    .text.ws2812b_send:0000000000000000 ws2812b_send
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:264    .text.ws2812b_send:0000000000000048 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:272    .text.TIM3_IRQHandler:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:279    .text.TIM3_IRQHandler:0000000000000000 TIM3_IRQHandler
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:350    .text.TIM3_IRQHandler:0000000000000050 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:385    .bss.tdelay:0000000000000000 tdelay
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:371    .bss.flag_stop:0000000000000000 flag_stop
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:360    .bss.flag_rdy:0000000000000000 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:364    .bss.flag_rdy:0000000000000000 flag_rdy
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:367    .bss.flag_stop:0000000000000000 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:374    .bss.led_array:0000000000000000 $d
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:378    .bss.led_array:0000000000000000 led_array
+C:\Users\SwEeTxD\AppData\Local\Temp\cc2J0QVE.s:381    .bss.tdelay:0000000000000000 $d
 
 NO UNDEFINED SYMBOLS
