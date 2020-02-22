@@ -1,0 +1,204 @@
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"RCC_Init.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.vRCC_Init,"ax",%progbits
+  18              		.align	1
+  19              		.global	vRCC_Init
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	vRCC_Init:
+  27              	.LFB123:
+  28              		.file 1 "Code/src/RCC_Init.c"
+   1:Code/src/RCC_Init.c **** #include "RCC_Init.h"
+   2:Code/src/RCC_Init.c **** #include "Error_Handler.h"
+   3:Code/src/RCC_Init.c **** 
+   4:Code/src/RCC_Init.c **** void vRCC_Init(){//
+  29              		.loc 1 4 17 view -0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+   5:Code/src/RCC_Init.c ****     RCC->CFGR = 0x00000000;
+  34              		.loc 1 5 5 view .LVU1
+  35              		.loc 1 5 15 is_stmt 0 view .LVU2
+  36 0000 244B     		ldr	r3, .L5
+  37 0002 0022     		movs	r2, #0
+  38 0004 5A60     		str	r2, [r3, #4]
+   6:Code/src/RCC_Init.c ****     RCC->CR |= RCC_CR_HSEON;
+  39              		.loc 1 6 5 is_stmt 1 view .LVU3
+  40              		.loc 1 6 13 is_stmt 0 view .LVU4
+  41 0006 1A68     		ldr	r2, [r3]
+  42 0008 42F48032 		orr	r2, r2, #65536
+  43 000c 1A60     		str	r2, [r3]
+   7:Code/src/RCC_Init.c ****     while(!(RCC->CR & RCC_CR_HSERDY));
+  44              		.loc 1 7 5 is_stmt 1 view .LVU5
+  45              	.L2:
+  46              		.loc 1 7 38 discriminator 1 view .LVU6
+  47              		.loc 1 7 16 is_stmt 0 discriminator 1 view .LVU7
+  48 000e 214B     		ldr	r3, .L5
+  49 0010 1B68     		ldr	r3, [r3]
+  50              		.loc 1 7 10 discriminator 1 view .LVU8
+  51 0012 13F4003F 		tst	r3, #131072
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s 			page 2
+
+
+  52 0016 FAD0     		beq	.L2
+   8:Code/src/RCC_Init.c **** 
+   9:Code/src/RCC_Init.c ****     FLASH->ACR |= FLASH_ACR_LATENCY_2;
+  53              		.loc 1 9 5 is_stmt 1 view .LVU9
+  54              		.loc 1 9 16 is_stmt 0 view .LVU10
+  55 0018 1F4A     		ldr	r2, .L5+4
+  56 001a 1368     		ldr	r3, [r2]
+  57 001c 43F00403 		orr	r3, r3, #4
+  58 0020 1360     		str	r3, [r2]
+  10:Code/src/RCC_Init.c **** 
+  11:Code/src/RCC_Init.c ****     //Регистр RCC->CFGR - отвечает за делители шин
+  12:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_HPRE_DIV1; //Настройка системной шины HPRE(AHB = SY
+  59              		.loc 1 12 5 is_stmt 1 view .LVU11
+  60              		.loc 1 12 15 is_stmt 0 view .LVU12
+  61 0022 1C4B     		ldr	r3, .L5
+  62 0024 5A68     		ldr	r2, [r3, #4]
+  63 0026 5A60     		str	r2, [r3, #4]
+  13:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_PPRE1_DIV2; //Настройка системной шины PPRE1(APB1 =
+  64              		.loc 1 13 5 is_stmt 1 view .LVU13
+  65              		.loc 1 13 15 is_stmt 0 view .LVU14
+  66 0028 5A68     		ldr	r2, [r3, #4]
+  67 002a 42F48062 		orr	r2, r2, #1024
+  68 002e 5A60     		str	r2, [r3, #4]
+  14:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_PPRE2_DIV1; //Настройка системной шины PPRE2(APB2 =
+  69              		.loc 1 14 5 is_stmt 1 view .LVU15
+  70              		.loc 1 14 15 is_stmt 0 view .LVU16
+  71 0030 5A68     		ldr	r2, [r3, #4]
+  72 0032 5A60     		str	r2, [r3, #4]
+  15:Code/src/RCC_Init.c **** 
+  16:Code/src/RCC_Init.c ****     RCC->CFGR &= ~RCC_CFGR_PLLMUL;//Отчистить бит PLLMULL
+  73              		.loc 1 16 5 is_stmt 1 view .LVU17
+  74              		.loc 1 16 15 is_stmt 0 view .LVU18
+  75 0034 5A68     		ldr	r2, [r3, #4]
+  76 0036 22F47012 		bic	r2, r2, #3932160
+  77 003a 5A60     		str	r2, [r3, #4]
+  17:Code/src/RCC_Init.c ****     RCC->CFGR &= ~RCC_CFGR_PLLSRC;//Отчистить бит PLLSRC
+  78              		.loc 1 17 5 is_stmt 1 view .LVU19
+  79              		.loc 1 17 15 is_stmt 0 view .LVU20
+  80 003c 5A68     		ldr	r2, [r3, #4]
+  81 003e 22F48032 		bic	r2, r2, #65536
+  82 0042 5A60     		str	r2, [r3, #4]
+  18:Code/src/RCC_Init.c ****     RCC->CFGR &= ~RCC_CFGR_PLLXTPRE;//Отчистить бит PLLXTPRE
+  83              		.loc 1 18 5 is_stmt 1 view .LVU21
+  84              		.loc 1 18 15 is_stmt 0 view .LVU22
+  85 0044 5A68     		ldr	r2, [r3, #4]
+  86 0046 22F40032 		bic	r2, r2, #131072
+  87 004a 5A60     		str	r2, [r3, #4]
+  19:Code/src/RCC_Init.c **** 
+  20:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_PLLSRC_HSE_PREDIV;//Источник тактирование HSE, вкл
+  88              		.loc 1 20 5 is_stmt 1 view .LVU23
+  89              		.loc 1 20 15 is_stmt 0 view .LVU24
+  90 004c 5A68     		ldr	r2, [r3, #4]
+  91 004e 42F48032 		orr	r2, r2, #65536
+  92 0052 5A60     		str	r2, [r3, #4]
+  21:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_PLLXTPRE_HSE_PREDIV_DIV1;//HSE = Кварц/1
+  93              		.loc 1 21 5 is_stmt 1 view .LVU25
+  94              		.loc 1 21 15 is_stmt 0 view .LVU26
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s 			page 3
+
+
+  95 0054 5A68     		ldr	r2, [r3, #4]
+  96 0056 5A60     		str	r2, [r3, #4]
+  22:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_PLLMUL9;//HSE = (Кварц/1)*9 = 72МГц
+  97              		.loc 1 22 5 is_stmt 1 view .LVU27
+  98              		.loc 1 22 15 is_stmt 0 view .LVU28
+  99 0058 5A68     		ldr	r2, [r3, #4]
+ 100 005a 42F4E012 		orr	r2, r2, #1835008
+ 101 005e 5A60     		str	r2, [r3, #4]
+  23:Code/src/RCC_Init.c **** 
+  24:Code/src/RCC_Init.c ****     RCC->CR |= RCC_CR_PLLON;//enable PLL
+ 102              		.loc 1 24 5 is_stmt 1 view .LVU29
+ 103              		.loc 1 24 13 is_stmt 0 view .LVU30
+ 104 0060 1A68     		ldr	r2, [r3]
+ 105 0062 42F08072 		orr	r2, r2, #16777216
+ 106 0066 1A60     		str	r2, [r3]
+  25:Code/src/RCC_Init.c ****     while(!(RCC->CR & RCC_CR_PLLRDY)){}//Ожидаем готовности PLL
+ 107              		.loc 1 25 5 is_stmt 1 view .LVU31
+ 108              	.L3:
+ 109              		.loc 1 25 39 discriminator 1 view .LVU32
+ 110              		.loc 1 25 16 is_stmt 0 discriminator 1 view .LVU33
+ 111 0068 0A4B     		ldr	r3, .L5
+ 112 006a 1B68     		ldr	r3, [r3]
+ 113              		.loc 1 25 10 discriminator 1 view .LVU34
+ 114 006c 13F0007F 		tst	r3, #33554432
+ 115 0070 FAD0     		beq	.L3
+  26:Code/src/RCC_Init.c **** 
+  27:Code/src/RCC_Init.c ****     RCC->CFGR &= ~RCC_CFGR_SW;//Очищаем биты SW(System clock switch)
+ 116              		.loc 1 27 5 is_stmt 1 view .LVU35
+ 117              		.loc 1 27 15 is_stmt 0 view .LVU36
+ 118 0072 084B     		ldr	r3, .L5
+ 119 0074 5A68     		ldr	r2, [r3, #4]
+ 120 0076 22F00302 		bic	r2, r2, #3
+ 121 007a 5A60     		str	r2, [r3, #4]
+  28:Code/src/RCC_Init.c ****     RCC->CFGR |= RCC_CFGR_SW_PLL;//Выбираем за основу PLL множитель
+ 122              		.loc 1 28 5 is_stmt 1 view .LVU37
+ 123              		.loc 1 28 15 is_stmt 0 view .LVU38
+ 124 007c 5A68     		ldr	r2, [r3, #4]
+ 125 007e 42F00202 		orr	r2, r2, #2
+ 126 0082 5A60     		str	r2, [r3, #4]
+  29:Code/src/RCC_Init.c ****     while((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_1){}//Ожидаем запуска PLL
+ 127              		.loc 1 29 5 is_stmt 1 view .LVU39
+ 128              	.L4:
+ 129              		.loc 1 29 57 discriminator 1 view .LVU40
+ 130              		.loc 1 29 15 is_stmt 0 discriminator 1 view .LVU41
+ 131 0084 034B     		ldr	r3, .L5
+ 132 0086 5B68     		ldr	r3, [r3, #4]
+ 133              		.loc 1 29 22 discriminator 1 view .LVU42
+ 134 0088 03F00C03 		and	r3, r3, #12
+ 135              		.loc 1 29 10 discriminator 1 view .LVU43
+ 136 008c 082B     		cmp	r3, #8
+ 137 008e F9D1     		bne	.L4
+  30:Code/src/RCC_Init.c **** }...
+ 138              		.loc 1 30 1 view .LVU44
+ 139 0090 7047     		bx	lr
+ 140              	.L6:
+ 141 0092 00BF     		.align	2
+ 142              	.L5:
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s 			page 4
+
+
+ 143 0094 00100240 		.word	1073876992
+ 144 0098 00200240 		.word	1073881088
+ 145              		.cfi_endproc
+ 146              	.LFE123:
+ 148              		.text
+ 149              	.Letext0:
+ 150              		.file 2 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\machine\\_default_typ
+ 151              		.file 3 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 152              		.file 4 "CMSIS/inc/core_cm4.h"
+ 153              		.file 5 "CMSIS/inc/system_stm32f3xx.h"
+ 154              		.file 6 "CMSIS/inc/stm32f334x8.h"
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s 			page 5
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 RCC_Init.c
+C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s:18     .text.vRCC_Init:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s:26     .text.vRCC_Init:0000000000000000 vRCC_Init
+C:\Users\SwEeTxD\AppData\Local\Temp\ccIE7MGr.s:143    .text.vRCC_Init:0000000000000094 $d
+
+NO UNDEFINED SYMBOLS

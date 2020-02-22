@@ -1,0 +1,12 @@
+{
+	"cortex-debug.enableTelemetry": false,
+	"cortex-debug.JLinkGDBServerPath": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe",
+	"files.associations": {
+		"gpio_init.h": "c",
+		"bsp.h": "c",
+		"dma_init.h": "c",
+		"stm32f3xx.h": "c",
+		"leds_strip.h": "c",
+		"main.h": "c"
+	}
+}

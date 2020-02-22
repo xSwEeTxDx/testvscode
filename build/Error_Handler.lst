@@ -1,0 +1,63 @@
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccGrLwSu.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"Error_Handler.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.Error_Handler,"ax",%progbits
+  18              		.align	1
+  19              		.global	Error_Handler
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	Error_Handler:
+  27              	.LFB123:
+  28              		.file 1 "Code/src/Error_Handler.c"
+   1:Code/src/Error_Handler.c **** #include "Error_Handler.h"
+   2:Code/src/Error_Handler.c **** 
+   3:Code/src/Error_Handler.c **** void Error_Handler(void)
+   4:Code/src/Error_Handler.c **** {
+  29              		.loc 1 4 1 view -0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+   5:Code/src/Error_Handler.c ****   /* USER CODE BEGIN Error_Handler_Debug */
+   6:Code/src/Error_Handler.c ****   /* User can add his own implementation to report the HAL error return state */
+   7:Code/src/Error_Handler.c **** 
+   8:Code/src/Error_Handler.c ****   /* USER CODE END Error_Handler_Debug */
+   9:Code/src/Error_Handler.c **** }...
+  34              		.loc 1 9 1 view .LVU1
+  35 0000 7047     		bx	lr
+  36              		.cfi_endproc
+  37              	.LFE123:
+  39              		.text
+  40              	.Letext0:
+  41              		.file 2 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\machine\\_default_typ
+  42              		.file 3 "z:\\stm32\\stlink_in_jlink\\armembeddedgcc\\arm-none-eabi\\include\\sys\\_stdint.h"
+  43              		.file 4 "CMSIS/inc/core_cm4.h"
+  44              		.file 5 "CMSIS/inc/system_stm32f3xx.h"
+ARM GAS  C:\Users\SwEeTxD\AppData\Local\Temp\ccGrLwSu.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 Error_Handler.c
+C:\Users\SwEeTxD\AppData\Local\Temp\ccGrLwSu.s:18     .text.Error_Handler:0000000000000000 $t
+C:\Users\SwEeTxD\AppData\Local\Temp\ccGrLwSu.s:26     .text.Error_Handler:0000000000000000 Error_Handler
+
+NO UNDEFINED SYMBOLS

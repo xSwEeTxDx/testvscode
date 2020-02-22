@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "Z:/STM32/STLINK_IN_JLINK/ARMEmbeddedGCC/arm-none-eabi-gcc.exe",
+            "includePath": [
+				"Z:/STM32/STLINK_IN_JLINK/ARMEmbeddedGCC/arm-none-eabi/include",
+				"Z:/STM32/STLINK_IN_JLINK/ARMEmbeddedGCC/arm-none-eabi/include/sys/",
+				"Z:/STM32/STLINK_IN_JLINK/ARMEmbeddedGCC/lib/**",
+
+                "${workspaceRoot}\\CMSIS\\**",
+                "${workspaceRoot}\\CMSIS\\inc",
+                "${workspaceRoot}\\CMSIS\\src",
+                "${workspaceRoot}\\Code\\**",
+				"${workspaceRoot}\\Code\\src",
+                "${workspaceRoot}\\Code\\inc"
+            ],
+            "defines": [
+				"STM32F334x8",
+				"M4",
+				"GCC_ARMCM4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

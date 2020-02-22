@@ -1,0 +1,6 @@
+r
+loadbin build\TESTVSCODE.bin, 0x00
+verifybin build\TESTVSCODE.bin, 0x00
+r
+g
+q
